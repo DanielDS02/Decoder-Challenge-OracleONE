@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoder</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Decodificador de Textos</h1>
+    </header>
+    <main class="container">
+        <section class="container-left-screen">
+            <textarea class="input" placeholder="Digite seu texto aqui..." id="input"></textarea>
+            <div class="container-buttons">
+                <p class="alert">Apenas letras minúsculas e sem acento!</p>
+                <button onclick="encrypt()" class="container-button">Criptografar</button>
+                <button onclick="decrypt()" class="container-button">Descriptografar</button>
+            </div>
+        </section>
+            <section class="container-right-screen">
+                <div class="output" id="output">
+                    <img src="./assets/cutecat.png" class="catimg">
+                    <div class="texts">
+                        <h3>Nenhuma mensagem encontrada</h3>
+                        <h4>Digite um texto que você deseja criptografar ou descriptografar.</h4>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer class="rodape">
+            <h5>Feito por <a class="link" href="https://github.com/DanielDS02">Daniel</a></h5>
+    </footer>
+    <script src="app.js" defer></script>
+</body>
+</html>
