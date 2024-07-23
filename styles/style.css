@@ -179,9 +179,9 @@ body{
     }
     
     .output {
-      width: 70%;
+      width: 100%;
       height: auto;
-      margin-left: 10rem;
+      margin-left: 50rem;
     }
     
     #text-output {
