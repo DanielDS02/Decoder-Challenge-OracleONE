@@ -100,7 +100,7 @@ body{
   padding: 2rem;
   gap: 2rem;
   justify-content: space-between;
-  margin-right: 10rem;
+  margin-right: -10rem;
 
 }
 
@@ -179,7 +179,7 @@ body{
     }
     
     .output {
-      width: 50%;
+      width: 70%;
       height: auto;
     }
     
