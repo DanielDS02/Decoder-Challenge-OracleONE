@@ -100,7 +100,7 @@ body{
   padding: 2rem;
   gap: 2rem;
   justify-content: space-between;
-  margin-right: 10rem;
+  margin-right: 5rem;
 
 }
 
@@ -121,7 +121,7 @@ body{
     max-height:300px;
     width: auto;
     height: auto;
-    margin-left: 10rem;
+    margin-left: 7rem;
     margin-top: 10rem;
 
 }
