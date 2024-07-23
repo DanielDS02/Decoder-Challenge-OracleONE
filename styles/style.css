@@ -157,6 +157,10 @@ body{
     
 }
 
+.catimg{
+  margin-left: 5rem;
+}
+
 @media (max-width: 1200px) {
     .container {
       padding: 3% 5%;
@@ -179,7 +183,7 @@ body{
     }
     
     .output {
-      width: 100%;
+      width: 70%;
       height: auto;
       margin-left: 10rem;
     }
